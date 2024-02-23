@@ -1,0 +1,44 @@
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+    position: relative;
+}
+
+.content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+    font-size: var(--font-size-xx-large);
+    font-weight: lighter;
+    font-family: fantasy;
+    z-index: 2;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin: 0;
+    bottom: 0;
+}
+
+.content p {
+    color: var(--color-red);
+    font-weight: bolder;
+    margin: 0;
+    margin-left: 10px;
+
+}
+
+.content p:last-child {
+    color: var(--color-white);
+    margin-top: 0;
+}

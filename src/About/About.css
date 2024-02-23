@@ -1,0 +1,39 @@
+.about {
+    position: relative;
+    background-color: var(--color-red);
+    height: 100vh;
+    color: var(--color-white);
+}
+
+.about-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 0;
+    text-align: center;
+}
+
+.about-container h1 {
+    font-size: var(--font-size-xx-large);
+    font-family: fantasy;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    align-self: center;
+    padding: 0;
+}
+
+.about-container p{
+    font-size: var(--font-size-small);
+    font-family: var(--font-family-base);
+
+}
+
+.about img {
+    height: 250px;
+    width: auto;
+    position: absolute;
+    margin: 120px;
+}

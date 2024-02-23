@@ -1,0 +1,26 @@
+:root {
+    --color-white: #ffffff;
+    --color-black: #1e1c1c;
+    --color-red: #e81e25;
+    --font-size-small: 1.2rem;
+    --font-size-medium: 1.6rem;
+    --font-size-large: 3rem;
+    --font-size-x-large: 4rem;
+    --font-size-xx-large: 6rem;
+    --font-family-base: Open Sans, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    --font-family-title: Raleway, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
