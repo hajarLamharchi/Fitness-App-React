@@ -4,7 +4,7 @@ import cercleImg from '../assets/cercles.png'
 
 function About() {
   return (
-    <section className="about">
+    <section className="about" id='about'>
         <img src={cercleImg} alt='about-img' />
         <div className="about-container">
             <h1>YOUR FITNESS JOURNEY<br />IN THE PALM OF YOUR HAND</h1>

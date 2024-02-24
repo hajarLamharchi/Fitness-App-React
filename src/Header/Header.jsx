@@ -20,9 +20,9 @@ function Header() {
         <nav className="navbar-menu">
           <ul className="nav">
             <li className="nav-item"><a href='#'>Home</a></li>
-            <li className="nav-item"><a href='#'>About</a></li>
-            <li className="nav-item"><a href='#'>Services</a></li>
-            <li className="nav-item"><a href='#'>Contact</a></li>
+            <li className="nav-item"><a href='#about'>About</a></li>
+            <li className="nav-item"><a href='#services'>Services</a></li>
+            <li className="nav-item"><a href='#footer'>Contact</a></li>
           </ul>
         </nav>
       </div>

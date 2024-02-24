@@ -6,7 +6,7 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 
 function Footer() {
   return (
-    <footer>
+    <footer id='footer'>
         <img className='footer-logo' src={Logo} alt='logo' />
         <div className='social-icons'>
           <ul>

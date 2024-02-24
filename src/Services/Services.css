@@ -46,7 +46,7 @@
 .services .services-content .right-side {
     display: flex;
     flex-direction: row;
-    margin-left: 70px;
+    margin-right: auto;
 }
 .services .services-content .right-side ul {
     display: flex;

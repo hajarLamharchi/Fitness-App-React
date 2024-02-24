@@ -4,7 +4,7 @@ import servicesImg from '../assets/3.png'
 
 function Services() {
     return (
-        <section className="services">
+        <section className="services" id='services'>
                 <img alt='services-img' src={servicesImg} />
                 <div className='services-content'>
                     <div className='left-side'>
