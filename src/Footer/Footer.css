@@ -20,11 +20,15 @@ footer {
 
 .social-icons ul {
     display: flex;
-    gap: 5px;
+    gap: 20px;
 }
 
 .social-icons ul li {
     list-style: none;
+}
+.social-icons ul li a {
+    color:var(--color-white);
+    transition: color 0.3s ease-out;
 }
 
 .social-icons ul li hr{
@@ -44,8 +48,9 @@ footer {
     transition: color 0.3s ease-out;
 }
 
-.privacy-terms a:hover {
-    color: var(--color-red);;
+.privacy-terms a:hover,
+.social-icons ul li a:hover {
+    color: var(--color-red);
     cursor: pointer;
 }
 
